@@ -1,0 +1,15 @@
+# robots.txt for QlarityAI (https://www.qlarityai.in)
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Disallow API routes and internal endpoints from indexing
+Disallow: /api/
+
+# Disallow internal dashboard pages
+Disallow: /seo-dashboard
+Disallow: /api-endpoints
+
+# Sitemap location
+Sitemap: https://www.qlarityai.in/sitemap.xml
